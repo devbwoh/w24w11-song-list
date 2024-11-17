@@ -25,6 +25,4 @@ const Playlist = () => {
   )
 }
 
-
-
 export default App
