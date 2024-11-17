@@ -31,31 +31,7 @@ function Container(props) {
         <img 
           src={`https://picsum.photos/600/150?random=${props.index}`} 
           alt={`랜덤 이미지 ${props.index}`}/>
-        <div class="song-title">{props.title}</div>
-      </a>
-    </div>
-  )
-}
-
-// function Container2() {
-//   return (
-//     <div className="container">
-//       <a href="https://www.youtube.com/results?search_query=사건의 지평선">
-//         <img 
-//           src="https://picsum.photos/600/150?random=2" 
-//           alt="랜덤 이미지 2"/>
-//         <div class="song-title">사건의 지평선</div>
-//       </a>
-//     </div>
-//   )
-// }
-
-function Container3() {
-  return (
-    <div class="container">
-      <a href="https://www.youtube.com/results?search_query=사랑은 늘 도망가">
-        <img src="https://picsum.photos/600/150?random=3" alt="랜덤 이미지 3"/>
-        <div class="song-title">사랑은 늘 도망가</div>
+        <div className="song-title">{props.title}</div>
       </a>
     </div>
   )
